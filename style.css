@@ -1,3 +1,22 @@
+#videoBG {
+  position: fixed;
+  z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+  #videoBG {
+    width: auto;
+    height: 100%;
+  }
+}
+
+@media (min-aspect-ratio: 16/9) {
+  #videoBG {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
 .section {
   position: relative;
   width: 100%;
@@ -35,3 +54,4 @@
   height: 100vh;
   opacity: 0.5;
 }
+
